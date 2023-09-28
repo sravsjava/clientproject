@@ -1,28 +1,36 @@
 [![Rate your Sample](views/Ratesample.png)][ss1][![Yes](views/Thumbup.png)][ss2][![No](views/Thumbdown.png)][ss3]
 
-# Wallet-Java
-Wallet-Java
+# Client-Java
+Client-Java
 src
 ├── main
 │   ├── java
 │   │   ├── com
-│   │   │   ├── example
-│   │   │   │   ├── wallet
-│   │   │   │   │   ├── WalletApplication.java
-│   │   │   │   │   ├── controllers
-│   │   │   │   │   │   ├── UserController.java
-│   │   │   │   │   │   ├── TransactionController.java
-│   │   │   │   │   ├── models
-│   │   │   │   │   │   ├── User.java
-│   │   │   │   │   │   ├── Transaction.java
-│   │   │   │   │   ├── repositories
-│   │   │   │   │   │   ├── UserRepository.java
-│   │   │   │   │   │   ├── TransactionRepository.java
-│   │   │   │   │   ├── services
-│   │   │   │   │   │   ├── UserService.java
-│   │   │   │   │   │   ├── TransactionService.java
+│   │   │   ├
+│   │   │   │─-client
+│   │   │   │  ├── ClientApplication.java
+│   │   │   │  ├── controllers
+│   │   │   │  │   ├── ClientController.java
+│   │   │   │  ├── exceptions
+│   │   │   │  │   ├── DuplicateIDException.java
+│   │   │   │  │   ├── DuplicateMobileNumberException.java
+│   │   │   │  │   ├── ValidSouthAfricanIdException.java
+│   │   │   │  ├── models
+│   │   │   │  │   ├── Client.java
+│   │   │   │  ├── repositories
+│   │   │   │  │   ├── ClientRepository.java
+│   │   │   │  ├── services
+│   │   │   │  │   ├── ClientService.java
 ├── resources
 │   ├── application.properties
+src
+├── test
+│   ├── java
+│   │   ├── com
+│   │   │   ├
+│   │   │   │-- client
+│   │   │   │   ├── controllers
+                    ├── ClientControllerTest.java
 ## Requirements
 
 In order to successfully run this sample app you need a few things:

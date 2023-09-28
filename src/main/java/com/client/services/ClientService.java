@@ -11,7 +11,6 @@ import com.client.exceptions.DuplicateIDException;
 import com.client.exceptions.DuplicateMobileNumberException;
 import com.client.exceptions.ValidSouthAfricanIdException;
 import com.client.models.Client;
-import com.client.models.ClientDTO;
 import com.client.repositories.ClientRepository;
 
 @Service
